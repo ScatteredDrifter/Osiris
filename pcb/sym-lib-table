@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name usbhub-macropad-eagle-import)(type Legacy)(uri ${KIPRJMOD}/usbhub-macropad-eagle-import.lib)(options "")(descr ""))
+  (lib (name FE1.1S-inch-eagle-import)(type Legacy)(uri ${KIPRJMOD}/FE1.1S-inch-eagle-import.lib)(options "")(descr ""))
+  (lib (name usbhub-macropad-rescue)(type Legacy)(uri ${KIPRJMOD}/usbhub-macropad-rescue.lib)(options "")(descr ""))
+)

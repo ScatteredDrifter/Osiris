@@ -1,0 +1,1605 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L usbhub-macropad-rescue:ATmega32U2-A-MCU_Microchip_ATmega U2
+U 1 1 61457DC7
+P 3400 2650
+F 0 "U2" H 3400 1161 50  0000 C CNN
+F 1 "ATmega32U2-A" H 3400 1070 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3400 2650 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 3400 2650 50  0001 C CNN
+F 4 "C618733" H 3400 2650 50  0001 C CNN "LCSC"
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4050 3400 4050
+Text GLabel 3150 4050 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2700 2450 2550 2450
+Wire Wire Line
+	2550 2450 2550 2600
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C8
+U 1 1 61457DD2
+P 2550 2700
+F 0 "C8" H 2642 2746 50  0000 L CNN
+F 1 "1uF" H 2642 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2550 2700 50  0001 C CNN
+F 3 "~" H 2550 2700 50  0001 C CNN
+F 4 "C28323" H 2550 2700 50  0001 C CNN "LCSC"
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2800 2550 2900
+Text GLabel 2550 2900 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2700 2250 2300 2250
+Wire Wire Line
+	2300 2250 2300 2600
+$Comp
+L usbhub-macropad-rescue:R_Small-Device R8
+U 1 1 61457DDD
+P 2300 2700
+F 0 "R8" H 2241 2654 50  0000 R CNN
+F 1 "22" H 2241 2745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 2700 50  0001 C CNN
+F 3 "~" H 2300 2700 50  0001 C CNN
+F 4 "C17561" H 2300 2700 50  0001 C CNN "LCSC"
+	1    2300 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2150 2150 2150
+Wire Wire Line
+	2150 2150 2150 2400
+$Comp
+L usbhub-macropad-rescue:R_Small-Device R7
+U 1 1 61457DE6
+P 2150 2500
+F 0 "R7" H 2209 2546 50  0000 L CNN
+F 1 "22" H 2209 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2150 2500 50  0001 C CNN
+F 3 "~" H 2150 2500 50  0001 C CNN
+F 4 "C17561" H 2150 2500 50  0001 C CNN "LCSC"
+	1    2150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2600 2150 2900
+Wire Wire Line
+	2300 2800 2300 2900
+Text GLabel 2300 2900 3    50   Input ~ 0
+0D-
+Text GLabel 2150 2900 3    50   Input ~ 0
+0D+
+$Comp
+L usbhub-macropad-rescue:Crystal_GND24_Small-Device Y2
+U 1 1 61457DF1
+P 1500 1850
+F 0 "Y2" V 1454 1994 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 1545 1994 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1500 1850 50  0001 C CNN
+F 3 "~" H 1500 1850 50  0001 C CNN
+F 4 "C13738" V 1500 1850 50  0001 C CNN "LCSC"
+	1    1500 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1750 1500 1750
+Wire Wire Line
+	2700 1950 1500 1950
+Wire Wire Line
+	1500 1750 1500 1650
+Connection ~ 1500 1750
+Wire Wire Line
+	1500 1950 1500 2050
+Connection ~ 1500 1950
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C3
+U 1 1 61457DFE
+P 1500 1550
+F 0 "C3" H 1592 1596 50  0000 L CNN
+F 1 "22pF" H 1592 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+F 4 "C1804" H 1500 1550 50  0001 C CNN "LCSC"
+	1    1500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C4
+U 1 1 61457E05
+P 1500 2150
+F 0 "C4" H 1592 2196 50  0000 L CNN
+F 1 "22pF" H 1592 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 2150 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+F 4 "C1804" H 1500 2150 50  0001 C CNN "LCSC"
+	1    1500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1850 1350 1850
+Wire Wire Line
+	1350 1850 1350 2300
+Wire Wire Line
+	1350 2300 1500 2300
+Wire Wire Line
+	1500 2300 1500 2250
+Wire Wire Line
+	1500 1450 1350 1450
+Wire Wire Line
+	1350 1450 1350 1850
+Connection ~ 1350 1850
+Wire Wire Line
+	1350 1850 1250 1850
+Text GLabel 1250 1850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1600 1850 1600 2300
+Wire Wire Line
+	1600 2300 1500 2300
+Connection ~ 1500 2300
+Wire Wire Line
+	3500 1250 3500 1200
+Wire Wire Line
+	3500 1200 3400 1200
+Wire Wire Line
+	3400 1200 3400 1250
+Wire Wire Line
+	3400 1200 3300 1200
+Wire Wire Line
+	3300 1200 3300 1250
+Connection ~ 3400 1200
+Connection ~ 3300 1200
+Text GLabel 3300 1050 0    50   Input ~ 0
++5V
+Wire Wire Line
+	2700 1550 2600 1550
+Wire Wire Line
+	2600 1550 2600 1450
+Connection ~ 2600 1550
+Wire Wire Line
+	2600 1550 2500 1550
+$Comp
+L usbhub-macropad-rescue:R_Small-Device R9
+U 1 1 61457E24
+P 2600 1350
+F 0 "R9" H 2659 1396 50  0000 L CNN
+F 1 "10k" H 2659 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2600 1350 50  0001 C CNN
+F 3 "~" H 2600 1350 50  0001 C CNN
+F 4 "C17414" H 2600 1350 50  0001 C CNN "LCSC"
+	1    2600 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 1150 1    50   Input ~ 0
++5V
+Wire Wire Line
+	2600 1150 2600 1250
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 61457E2D
+P 2200 1550
+F 0 "SW1" H 2200 1805 50  0000 C CNN
+F 1 "SW_PUSH" H 2200 1714 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 2200 1550 60  0001 C CNN
+F 3 "" H 2200 1550 60  0000 C CNN
+F 4 "C318884" H 2200 1550 50  0001 C CNN "LCSC"
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1550 1    50   Input ~ 0
+GND
+Wire Wire Line
+	3300 4050 3150 4050
+Connection ~ 3300 4050
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C5
+U 1 1 61457E74
+P 1400 3650
+F 0 "C5" H 1492 3696 50  0000 L CNN
+F 1 "0.1uF" H 1200 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1400 3650 50  0001 C CNN
+F 3 "~" H 1400 3650 50  0001 C CNN
+F 4 "C49678" H 1400 3650 50  0001 C CNN "LCSC"
+	1    1400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C6
+U 1 1 61457E7B
+P 1650 3650
+F 0 "C6" H 1742 3696 50  0000 L CNN
+F 1 "10uF" H 1500 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1650 3650 50  0001 C CNN
+F 3 "~" H 1650 3650 50  0001 C CNN
+F 4 "C91245" H 1650 3650 50  0001 C CNN "LCSC"
+	1    1650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L usbhub-macropad-rescue:C_Small-Device C7
+U 1 1 61457E82
+P 1900 3650
+F 0 "C7" H 1992 3696 50  0000 L CNN
+F 1 "0.1uF" H 1700 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 3650 50  0001 C CNN
+F 3 "~" H 1900 3650 50  0001 C CNN
+F 4 "C49678" H 1900 3650 50  0001 C CNN "LCSC"
+	1    1900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3800
+Wire Wire Line
+	4150 3800 4200 3800
+$Comp
+L usbhub-macropad-rescue:R_Small-Device R10
+U 1 1 61457E8C
+P 4300 3800
+F 0 "R10" V 4250 3750 50  0000 C CNN
+F 1 "10k" V 4250 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4300 3800 50  0001 C CNN
+F 3 "~" H 4300 3800 50  0001 C CNN
+F 4 "C17414" V 4300 3800 50  0001 C CNN "LCSC"
+	1    4300 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 3800 4500 3800
+Text GLabel 4500 3800 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1400 3750 1650 3750
+Connection ~ 1650 3750
+Wire Wire Line
+	1650 3750 1900 3750
+Wire Wire Line
+	1400 3750 1400 3850
+Connection ~ 1400 3750
+Wire Wire Line
+	1900 3550 1650 3550
+Connection ~ 1650 3550
+Wire Wire Line
+	1650 3550 1400 3550
+Wire Wire Line
+	1400 3550 1400 3450
+Connection ~ 1400 3550
+Text GLabel 1400 3450 0    50   Input ~ 0
++5V
+Text GLabel 1400 3850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4100 1550 4150 1550
+Wire Wire Line
+	4100 1650 4150 1650
+Wire Wire Line
+	4100 1750 4150 1750
+Wire Wire Line
+	4100 1850 4150 1850
+Wire Wire Line
+	4100 1950 4150 1950
+Wire Wire Line
+	4100 2050 4150 2050
+Wire Wire Line
+	4100 2150 4150 2150
+Wire Wire Line
+	4100 2450 4150 2450
+Wire Wire Line
+	4100 2550 4150 2550
+Wire Wire Line
+	4100 2650 4150 2650
+Wire Wire Line
+	4100 2750 4150 2750
+Wire Wire Line
+	4100 2850 4150 2850
+Wire Wire Line
+	4100 3050 4150 3050
+Wire Wire Line
+	4100 3150 4150 3150
+Wire Wire Line
+	4100 3250 4150 3250
+Wire Wire Line
+	4100 3350 4150 3350
+Wire Wire Line
+	4100 3450 4150 3450
+Wire Wire Line
+	4100 3550 4150 3550
+Wire Wire Line
+	4100 3650 4150 3650
+Wire Wire Line
+	4100 2250 4150 2250
+Text GLabel 4150 2250 2    50   Input ~ 0
+col2
+Text GLabel 4150 1550 2    50   Input ~ 0
+col3
+Text GLabel 4150 1950 2    50   Input ~ 0
+row2
+Text GLabel 4150 1850 2    50   Input ~ 0
+row3
+Text GLabel 6700 750  1    50   Input ~ 0
+col0
+Text GLabel 7450 750  1    50   Input ~ 0
+col1
+Text GLabel 8150 750  1    50   Input ~ 0
+col2
+Text GLabel 8850 750  1    50   Input ~ 0
+col3
+Text GLabel 5850 1400 0    50   Input ~ 0
+row0
+Wire Wire Line
+	6100 2950 6100 3050
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D3,0
+U 1 1 61457ED6
+P 6100 3200
+F 0 "D3,0" V 6146 3120 50  0000 R CNN
+F 1 "1N4448" V 6055 3120 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 3200 50  0001 C CNN
+F 4 "C2099" H 6100 3200 50  0001 C CNN "LCSC"
+	1    6100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2300 6700 2950
+$Comp
+L keyboard_parts:KEYSW K3,0
+U 1 1 61457EDD
+P 6400 2950
+F 0 "K3,0" H 6400 3150 60  0000 C CNN
+F 1 "KEYSW" H 6400 2850 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 2950 60  0001 C CNN
+F 3 "" H 6400 2950 60  0000 C CNN
+	1    6400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2300 6100 2400
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D2,0
+U 1 1 61457EE5
+P 6100 2550
+F 0 "D2,0" V 6146 2470 50  0000 R CNN
+F 1 "1N4448" V 6055 2470 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 2375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 2550 50  0001 C CNN
+F 4 " C2099" H 6100 2550 50  0001 C CNN "LCSC"
+	1    6100 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 1650 6700 2300
+$Comp
+L keyboard_parts:KEYSW K2,0
+U 1 1 61457EEC
+P 6400 2300
+F 0 "K2,0" H 6400 2500 60  0000 C CNN
+F 1 "KEYSW" H 6400 2200 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 2300 60  0001 C CNN
+F 3 "" H 6400 2300 60  0000 C CNN
+	1    6400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1650 6100 1750
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D1,0
+U 1 1 61457EF4
+P 6100 1900
+F 0 "D1,0" V 6146 1820 50  0000 R CNN
+F 1 "1N4448" V 6055 1820 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 1725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 1900 50  0001 C CNN
+F 4 "C2099" H 6100 1900 50  0001 C CNN "LCSC"
+	1    6100 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1,0
+U 1 1 61457EFA
+P 6400 1650
+F 0 "K1,0" H 6400 1850 60  0000 C CNN
+F 1 "KEYSW" H 6400 1550 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 1650 60  0001 C CNN
+F 3 "" H 6400 1650 60  0000 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1400 5850 1400
+Wire Wire Line
+	6100 1000 6100 1100
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D0,0
+U 1 1 61457F03
+P 6100 1250
+F 0 "D0,0" V 6146 1170 50  0000 R CNN
+F 1 "1N4448" V 6055 1170 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 1075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 1250 50  0001 C CNN
+F 4 "C2099" V 6100 1250 50  0001 C CNN "LCSC"
+	1    6100 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 1000 6700 1650
+Wire Wire Line
+	6700 750  6700 1000
+Connection ~ 6700 1000
+$Comp
+L keyboard_parts:KEYSW K0,0
+U 1 1 61457F0C
+P 6400 1000
+F 0 "K0,0" H 6400 1233 60  0000 C CNN
+F 1 "KEYSW" H 6400 900 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 1000 60  0001 C CNN
+F 3 "" H 6400 1000 60  0000 C CNN
+	1    6400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2950 6850 3050
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D3,1
+U 1 1 61457F14
+P 6850 3200
+F 0 "D3,1" V 6896 3120 50  0000 R CNN
+F 1 "1N4448" V 6805 3120 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 3200 50  0001 C CNN
+F 4 "C2099" H 6850 3200 50  0001 C CNN "LCSC"
+	1    6850 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 2300 7450 2950
+$Comp
+L keyboard_parts:KEYSW K3,1
+U 1 1 61457F1B
+P 7150 2950
+F 0 "K3,1" H 7150 3150 60  0000 C CNN
+F 1 "KEYSW" H 7150 2850 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 2950 60  0001 C CNN
+F 3 "" H 7150 2950 60  0000 C CNN
+	1    7150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2300 6850 2400
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D2,1
+U 1 1 61457F23
+P 6850 2550
+F 0 "D2,1" V 6896 2470 50  0000 R CNN
+F 1 "1N4448" V 6805 2470 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 2375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 2550 50  0001 C CNN
+F 4 " C2099" H 6850 2550 50  0001 C CNN "LCSC"
+	1    6850 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 1650 7450 2300
+$Comp
+L keyboard_parts:KEYSW K2,1
+U 1 1 61457F2A
+P 7150 2300
+F 0 "K2,1" H 7150 2500 60  0000 C CNN
+F 1 "KEYSW" H 7150 2200 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 2300 60  0001 C CNN
+F 3 "" H 7150 2300 60  0000 C CNN
+	1    7150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1650 6850 1750
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D1,1
+U 1 1 61457F32
+P 6850 1900
+F 0 "D1,1" V 6896 1820 50  0000 R CNN
+F 1 "1N4448" V 6805 1820 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 1725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 1900 50  0001 C CNN
+F 4 "C2099" H 6850 1900 50  0001 C CNN "LCSC"
+	1    6850 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1,1
+U 1 1 61457F38
+P 7150 1650
+F 0 "K1,1" H 7150 1850 60  0000 C CNN
+F 1 "KEYSW" H 7150 1550 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 1650 60  0001 C CNN
+F 3 "" H 7150 1650 60  0000 C CNN
+	1    7150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1000 6850 1100
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D0,1
+U 1 1 61457F40
+P 6850 1250
+F 0 "D0,1" V 6896 1170 50  0000 R CNN
+F 1 "1N4448" V 6805 1170 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 1075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 1250 50  0001 C CNN
+F 4 "C2099" V 6850 1250 50  0001 C CNN "LCSC"
+	1    6850 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 1000 7450 1650
+Wire Wire Line
+	7450 750  7450 1000
+Connection ~ 7450 1000
+$Comp
+L keyboard_parts:KEYSW K0,1
+U 1 1 61457F49
+P 7150 1000
+F 0 "K0,1" H 7150 1233 60  0000 C CNN
+F 1 "KEYSW" H 7150 900 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 1000 60  0001 C CNN
+F 3 "" H 7150 1000 60  0000 C CNN
+	1    7150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2950 7550 3050
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D3,2
+U 1 1 61457F51
+P 7550 3200
+F 0 "D3,2" V 7596 3120 50  0000 R CNN
+F 1 "1N4448" V 7505 3120 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 3200 50  0001 C CNN
+F 4 "C2099" H 7550 3200 50  0001 C CNN "LCSC"
+	1    7550 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2300 8150 2950
+$Comp
+L keyboard_parts:KEYSW K3,2
+U 1 1 61457F58
+P 7850 2950
+F 0 "K3,2" H 7850 3150 60  0000 C CNN
+F 1 "KEYSW" H 7850 2850 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 2950 60  0001 C CNN
+F 3 "" H 7850 2950 60  0000 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2300 7550 2400
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D2,2
+U 1 1 61457F60
+P 7550 2550
+F 0 "D2,2" V 7596 2470 50  0000 R CNN
+F 1 "1N4448" V 7505 2470 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 2375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 2550 50  0001 C CNN
+F 4 " C2099" H 7550 2550 50  0001 C CNN "LCSC"
+	1    7550 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 1650 8150 2300
+$Comp
+L keyboard_parts:KEYSW K2,2
+U 1 1 61457F67
+P 7850 2300
+F 0 "K2,2" H 7850 2500 60  0000 C CNN
+F 1 "KEYSW" H 7850 2200 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 2300 60  0001 C CNN
+F 3 "" H 7850 2300 60  0000 C CNN
+	1    7850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1650 7550 1750
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D1,2
+U 1 1 61457F6F
+P 7550 1900
+F 0 "D1,2" V 7596 1820 50  0000 R CNN
+F 1 "1N4448" V 7505 1820 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 1725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 1900 50  0001 C CNN
+F 4 "C2099" H 7550 1900 50  0001 C CNN "LCSC"
+	1    7550 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1,2
+U 1 1 61457F75
+P 7850 1650
+F 0 "K1,2" H 7850 1850 60  0000 C CNN
+F 1 "KEYSW" H 7850 1550 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 1650 60  0001 C CNN
+F 3 "" H 7850 1650 60  0000 C CNN
+	1    7850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1000 7550 1100
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D0,2
+U 1 1 61457F7D
+P 7550 1250
+F 0 "D0,2" V 7596 1170 50  0000 R CNN
+F 1 "1N4448" V 7505 1170 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 1075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 1250 50  0001 C CNN
+F 4 "C2099" V 7550 1250 50  0001 C CNN "LCSC"
+	1    7550 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 1000 8150 1650
+Wire Wire Line
+	8150 750  8150 1000
+Connection ~ 8150 1000
+$Comp
+L keyboard_parts:KEYSW K0,2
+U 1 1 61457F86
+P 7850 1000
+F 0 "K0,2" H 7850 1233 60  0000 C CNN
+F 1 "KEYSW" H 7850 900 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 1000 60  0001 C CNN
+F 3 "" H 7850 1000 60  0000 C CNN
+	1    7850 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2950 8250 3050
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D3,3
+U 1 1 61457F8E
+P 8250 3200
+F 0 "D3,3" V 8296 3120 50  0000 R CNN
+F 1 "1N4448" V 8205 3120 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 8250 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 3200 50  0001 C CNN
+F 4 "C2099" H 8250 3200 50  0001 C CNN "LCSC"
+	1    8250 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 2300 8850 2950
+$Comp
+L keyboard_parts:KEYSW K3,3
+U 1 1 61457F95
+P 8550 2950
+F 0 "K3,3" H 8550 3150 60  0000 C CNN
+F 1 "KEYSW" H 8550 2850 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 8550 2950 60  0001 C CNN
+F 3 "" H 8550 2950 60  0000 C CNN
+	1    8550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2300 8250 2400
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D2,3
+U 1 1 61457F9D
+P 8250 2550
+F 0 "D2,3" V 8296 2470 50  0000 R CNN
+F 1 "1N4448" V 8205 2470 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 8250 2375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 2550 50  0001 C CNN
+F 4 " C2099" H 8250 2550 50  0001 C CNN "LCSC"
+	1    8250 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 1650 8850 2300
+$Comp
+L keyboard_parts:KEYSW K2,3
+U 1 1 61457FA4
+P 8550 2300
+F 0 "K2,3" H 8550 2500 60  0000 C CNN
+F 1 "KEYSW" H 8550 2200 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 8550 2300 60  0001 C CNN
+F 3 "" H 8550 2300 60  0000 C CNN
+	1    8550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1650 8250 1750
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D1,3
+U 1 1 61457FAC
+P 8250 1900
+F 0 "D1,3" V 8296 1820 50  0000 R CNN
+F 1 "1N4448" V 8205 1820 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 8250 1725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 1900 50  0001 C CNN
+F 4 "C2099" H 8250 1900 50  0001 C CNN "LCSC"
+	1    8250 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1,3
+U 1 1 61457FB2
+P 8550 1650
+F 0 "K1,3" H 8550 1850 60  0000 C CNN
+F 1 "KEYSW" H 8550 1550 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 8550 1650 60  0001 C CNN
+F 3 "" H 8550 1650 60  0000 C CNN
+	1    8550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1000 8250 1100
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D0,3
+U 1 1 61457FBA
+P 8250 1250
+F 0 "D0,3" V 8296 1170 50  0000 R CNN
+F 1 "1N4448" V 8205 1170 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 8250 1075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 1250 50  0001 C CNN
+F 4 "C2099" H 8250 1250 50  0001 C CNN "LCSC"
+	1    8250 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 1000 8850 1650
+Wire Wire Line
+	8850 750  8850 1000
+Connection ~ 8850 1000
+$Comp
+L keyboard_parts:KEYSW K0,3
+U 1 1 61457FC3
+P 8550 1000
+F 0 "K0,3" H 8550 1233 60  0000 C CNN
+F 1 "KEYSW" H 8550 900 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 8550 1000 60  0001 C CNN
+F 3 "" H 8550 1000 60  0000 C CNN
+	1    8550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1400 6850 1400
+Connection ~ 6100 1400
+Connection ~ 6850 1400
+Wire Wire Line
+	6850 1400 7550 1400
+Connection ~ 7550 1400
+Wire Wire Line
+	7550 1400 8250 1400
+Wire Wire Line
+	5850 2050 6100 2050
+Connection ~ 6100 2050
+Wire Wire Line
+	6100 2050 6850 2050
+Connection ~ 6850 2050
+Wire Wire Line
+	6850 2050 7550 2050
+Connection ~ 7550 2050
+Wire Wire Line
+	7550 2050 8250 2050
+Wire Wire Line
+	5850 2700 6100 2700
+Connection ~ 6100 2700
+Wire Wire Line
+	6100 2700 6850 2700
+Connection ~ 6850 2700
+Wire Wire Line
+	6850 2700 7550 2700
+Connection ~ 7550 2700
+Wire Wire Line
+	7550 2700 8250 2700
+Wire Wire Line
+	5850 3350 6100 3350
+Connection ~ 6100 3350
+Wire Wire Line
+	6100 3350 6850 3350
+Connection ~ 6850 3350
+Wire Wire Line
+	6850 3350 7550 3350
+Connection ~ 7550 3350
+Wire Wire Line
+	7550 3350 8250 3350
+Text GLabel 5850 2700 0    50   Input ~ 0
+row2
+Text GLabel 5850 3350 0    50   Input ~ 0
+row3
+Text GLabel 5850 2050 0    50   Input ~ 0
+row1
+Connection ~ 6700 1650
+Connection ~ 6700 2300
+Connection ~ 7450 1650
+Connection ~ 7450 2300
+Connection ~ 8150 1650
+Connection ~ 8150 2300
+Connection ~ 8850 1650
+Connection ~ 8850 2300
+NoConn ~ 4150 3050
+NoConn ~ 4150 3150
+NoConn ~ 4150 3250
+Wire Wire Line
+	6100 4250 6100 4350
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D5,0
+U 1 1 614209EB
+P 6100 4500
+F 0 "D5,0" V 6146 4420 50  0000 R CNN
+F 1 "1N4448" V 6055 4420 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 4500 50  0001 C CNN
+F 4 "C2099" H 6100 4500 50  0001 C CNN "LCSC"
+	1    6100 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 3600 6700 4250
+$Comp
+L keyboard_parts:KEYSW K5,0
+U 1 1 614209F2
+P 6400 4250
+F 0 "K5,0" H 6400 4450 60  0000 C CNN
+F 1 "KEYSW" H 6400 4150 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 4250 60  0001 C CNN
+F 3 "" H 6400 4250 60  0000 C CNN
+	1    6400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3600 6100 3700
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D4,0
+U 1 1 614209FA
+P 6100 3850
+F 0 "D4,0" V 6146 3770 50  0000 R CNN
+F 1 "1N4448" V 6055 3770 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6100 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 3850 50  0001 C CNN
+F 4 "C2099" H 6100 3850 50  0001 C CNN "LCSC"
+	1    6100 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2950 6700 3600
+$Comp
+L keyboard_parts:KEYSW K4,0
+U 1 1 61420A01
+P 6400 3600
+F 0 "K4,0" H 6400 3800 60  0000 C CNN
+F 1 "KEYSW" H 6400 3500 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 6400 3600 60  0001 C CNN
+F 3 "" H 6400 3600 60  0000 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4250 6850 4350
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D5,1
+U 1 1 61420A09
+P 6850 4500
+F 0 "D5,1" V 6896 4420 50  0000 R CNN
+F 1 "1N4448" V 6805 4420 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 4500 50  0001 C CNN
+F 4 "C2099" H 6850 4500 50  0001 C CNN "LCSC"
+	1    6850 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3600 7450 4250
+$Comp
+L keyboard_parts:KEYSW K5,1
+U 1 1 61420A10
+P 7150 4250
+F 0 "K5,1" H 7150 4450 60  0000 C CNN
+F 1 "KEYSW" H 7150 4150 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 4250 60  0001 C CNN
+F 3 "" H 7150 4250 60  0000 C CNN
+	1    7150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3600 6850 3700
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D4,1
+U 1 1 61420A18
+P 6850 3850
+F 0 "D4,1" V 6896 3770 50  0000 R CNN
+F 1 "1N4448" V 6805 3770 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 6850 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 3850 50  0001 C CNN
+F 4 "C2099" H 6850 3850 50  0001 C CNN "LCSC"
+	1    6850 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 2950 7450 3600
+$Comp
+L keyboard_parts:KEYSW K4,1
+U 1 1 61420A1F
+P 7150 3600
+F 0 "K4,1" H 7150 3800 60  0000 C CNN
+F 1 "KEYSW" H 7150 3500 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7150 3600 60  0001 C CNN
+F 3 "" H 7150 3600 60  0000 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4250 7550 4350
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D5,2
+U 1 1 61420A27
+P 7550 4500
+F 0 "D5,2" V 7596 4420 50  0000 R CNN
+F 1 "1N4448" V 7505 4420 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 4500 50  0001 C CNN
+F 4 "C2099" H 7550 4500 50  0001 C CNN "LCSC"
+	1    7550 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3600 8150 4250
+$Comp
+L keyboard_parts:KEYSW K5,2
+U 1 1 61420A2E
+P 7850 4250
+F 0 "K5,2" H 7850 4450 60  0000 C CNN
+F 1 "KEYSW" H 7850 4150 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 4250 60  0001 C CNN
+F 3 "" H 7850 4250 60  0000 C CNN
+	1    7850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3600 7550 3700
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D4,2
+U 1 1 61420A36
+P 7550 3850
+F 0 "D4,2" V 7596 3770 50  0000 R CNN
+F 1 "1N4448" V 7505 3770 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 7550 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 3850 50  0001 C CNN
+F 4 "C2099" H 7550 3850 50  0001 C CNN "LCSC"
+	1    7550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2950 8150 3600
+$Comp
+L keyboard_parts:KEYSW K4,2
+U 1 1 61420A3D
+P 7850 3600
+F 0 "K4,2" H 7850 3800 60  0000 C CNN
+F 1 "KEYSW" H 7850 3500 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 7850 3600 60  0001 C CNN
+F 3 "" H 7850 3600 60  0000 C CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3600 8850 4250
+Wire Wire Line
+	8250 3600 8250 3700
+$Comp
+L usbhub-macropad-rescue:1N4448-Diode D4,3
+U 1 1 61420A54
+P 8250 3850
+F 0 "D4,3" V 8296 3770 50  0000 R CNN
+F 1 "1N4448" V 8205 3770 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" H 8250 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 3850 50  0001 C CNN
+F 4 "C2099" H 8250 3850 50  0001 C CNN "LCSC"
+	1    8250 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 2950 8850 3600
+$Comp
+L keyboard_parts:KEYSW K4,3
+U 1 1 61420A5B
+P 8550 3600
+F 0 "K4,3" H 8550 3800 60  0000 C CNN
+F 1 "KEYSW" H 8550 3500 60  0001 C CNN
+F 2 "keyswitches:SW_MX" H 8550 3600 60  0001 C CNN
+F 3 "" H 8550 3600 60  0000 C CNN
+	1    8550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4000 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 6850 4000
+Connection ~ 6850 4000
+Wire Wire Line
+	6850 4000 7550 4000
+Connection ~ 7550 4000
+Wire Wire Line
+	7550 4000 8250 4000
+Wire Wire Line
+	5850 4650 6100 4650
+Connection ~ 6100 4650
+Wire Wire Line
+	6100 4650 6850 4650
+Connection ~ 6850 4650
+Wire Wire Line
+	6850 4650 7550 4650
+Connection ~ 7550 4650
+Wire Wire Line
+	7550 4650 8250 4650
+Text GLabel 5850 4000 0    50   Input ~ 0
+row4
+Text GLabel 5850 4650 0    50   Input ~ 0
+row5
+Connection ~ 6700 3600
+Connection ~ 7450 3600
+Connection ~ 8150 3600
+Connection ~ 8850 3600
+Connection ~ 6700 2950
+Connection ~ 7450 2950
+Connection ~ 8150 2950
+Connection ~ 8850 2950
+$Comp
+L kbd:YS-SK6812MINI-E LED0,3
+U 1 1 6155B4B5
+P 10000 900
+F 0 "LED0,3" H 10200 1150 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 10150 650 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10100 650 50  0001 C CNN
+F 3 "" H 10100 650 50  0001 C CNN
+	1    10000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED0,2
+U 1 1 6155B4BB
+P 10900 900
+F 0 "LED0,2" H 11000 1150 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11050 650 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11000 650 50  0001 C CNN
+F 3 "" H 11000 650 50  0001 C CNN
+	1    10900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED0,1
+U 1 1 6155B4C1
+P 11700 900
+F 0 "LED0,1" H 11800 1150 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11850 650 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11800 650 50  0001 C CNN
+F 3 "" H 11800 650 50  0001 C CNN
+	1    11700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED0,0
+U 1 1 6155B4C7
+P 12500 900
+F 0 "LED0,0" H 12250 1150 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 12750 700 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 650 50  0001 C CNN
+F 3 "" H 12600 650 50  0001 C CNN
+	1    12500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED1,0
+U 1 1 6156CE31
+P 12500 1650
+F 0 "LED1,0" H 12750 1400 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 12250 1800 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 1400 50  0001 C CNN
+F 3 "" H 12600 1400 50  0001 C CNN
+	1    12500 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED1,1
+U 1 1 6156CE37
+P 11600 1650
+F 0 "LED1,1" H 11400 1400 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 11350 1900 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11700 1400 50  0001 C CNN
+F 3 "" H 11700 1400 50  0001 C CNN
+	1    11600 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED1,2
+U 1 1 6156CE3D
+P 10800 1650
+F 0 "LED1,2" H 10600 1400 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 10550 1900 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10900 1400 50  0001 C CNN
+F 3 "" H 10900 1400 50  0001 C CNN
+	1    10800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED1,3
+U 1 1 6156CE43
+P 10000 1650
+F 0 "LED1,3" H 9800 1400 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 9850 1900 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10100 1400 50  0001 C CNN
+F 3 "" H 10100 1400 50  0001 C CNN
+	1    10000 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED2,0
+U 1 1 6157736B
+P 10000 2400
+F 0 "LED2,0" H 10200 2650 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 10150 2150 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10100 2150 50  0001 C CNN
+F 3 "" H 10100 2150 50  0001 C CNN
+	1    10000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED2,1
+U 1 1 61577371
+P 10900 2400
+F 0 "LED2,1" H 11000 2650 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11050 2150 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11000 2150 50  0001 C CNN
+F 3 "" H 11000 2150 50  0001 C CNN
+	1    10900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED2,2
+U 1 1 61577377
+P 11700 2400
+F 0 "LED2,2" H 11800 2650 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11850 2150 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11800 2150 50  0001 C CNN
+F 3 "" H 11800 2150 50  0001 C CNN
+	1    11700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED2,3
+U 1 1 6157737D
+P 12500 2400
+F 0 "LED2,3" H 12250 2650 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 12750 2200 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 2150 50  0001 C CNN
+F 3 "" H 12600 2150 50  0001 C CNN
+	1    12500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED3,0
+U 1 1 615839F1
+P 12500 3150
+F 0 "LED3,0" H 12800 2900 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 12250 3400 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 2900 50  0001 C CNN
+F 3 "" H 12600 2900 50  0001 C CNN
+	1    12500 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED3,1
+U 1 1 615839F7
+P 11600 3150
+F 0 "LED3,1" H 11400 2900 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 11350 3400 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11700 2900 50  0001 C CNN
+F 3 "" H 11700 2900 50  0001 C CNN
+	1    11600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED3,2
+U 1 1 615839FD
+P 10800 3150
+F 0 "LED3,2" H 10600 2900 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 10550 3400 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10900 2900 50  0001 C CNN
+F 3 "" H 10900 2900 50  0001 C CNN
+	1    10800 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED3,3
+U 1 1 61583A03
+P 10000 3150
+F 0 "LED3,3" H 9800 2900 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 9850 3400 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10100 2900 50  0001 C CNN
+F 3 "" H 10100 2900 50  0001 C CNN
+	1    10000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED4,0
+U 1 1 615906F1
+P 10000 3850
+F 0 "LED4,0" H 10200 4100 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 10150 3600 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 10100 3600 50  0001 C CNN
+F 3 "" H 10100 3600 50  0001 C CNN
+	1    10000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED4,1
+U 1 1 615906F7
+P 10900 3850
+F 0 "LED4,1" H 11000 4100 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11050 3600 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11000 3600 50  0001 C CNN
+F 3 "" H 11000 3600 50  0001 C CNN
+	1    10900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED4,2
+U 1 1 615906FD
+P 11700 3850
+F 0 "LED4,2" H 11800 4100 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 11850 3600 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11800 3600 50  0001 C CNN
+F 3 "" H 11800 3600 50  0001 C CNN
+	1    11700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED4,3
+U 1 1 61590703
+P 12500 3850
+F 0 "LED4,3" H 12250 4100 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 12750 3650 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 3600 50  0001 C CNN
+F 3 "" H 12600 3600 50  0001 C CNN
+	1    12500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED5,0
+U 1 1 6159BA1D
+P 12500 4550
+F 0 "LED5,0" H 12800 4300 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 12250 4700 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 12600 4300 50  0001 C CNN
+F 3 "" H 12600 4300 50  0001 C CNN
+	1    12500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED5,1
+U 1 1 6159BA23
+P 11700 4550
+F 0 "LED5,1" H 11550 4300 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 11550 4800 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11800 4300 50  0001 C CNN
+F 3 "" H 11800 4300 50  0001 C CNN
+	1    11700 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED5,2
+U 1 1 6159BA29
+P 10900 4550
+F 0 "LED5,2" H 10750 4300 29  0000 R CNN
+F 1 "YS-SK6812MINI-E" H 10750 4800 29  0000 R CNN
+F 2 "kbd:YS-SK6812MINI-E" H 11000 4300 50  0001 C CNN
+F 3 "" H 11000 4300 50  0001 C CNN
+	1    10900 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 600  10900 600 
+Connection ~ 10900 600 
+Wire Wire Line
+	10900 600  11700 600 
+Connection ~ 11700 600 
+Wire Wire Line
+	11700 600  12500 600 
+Connection ~ 12500 600 
+Wire Wire Line
+	12500 600  12700 600 
+Wire Wire Line
+	10000 2100 10900 2100
+Connection ~ 10900 2100
+Wire Wire Line
+	10900 2100 11700 2100
+Connection ~ 11700 2100
+Wire Wire Line
+	11700 2100 12500 2100
+Connection ~ 12500 2100
+Wire Wire Line
+	12500 2100 12700 2100
+Wire Wire Line
+	10000 1950 10800 1950
+Wire Wire Line
+	12500 1950 12500 2100
+Connection ~ 12500 1950
+Connection ~ 10800 1950
+Wire Wire Line
+	10800 1950 11600 1950
+Connection ~ 11600 1950
+Wire Wire Line
+	11600 1950 12500 1950
+Wire Wire Line
+	10000 1200 10900 1200
+Connection ~ 10900 1200
+Wire Wire Line
+	10900 1200 11700 1200
+Connection ~ 11700 1200
+Wire Wire Line
+	11700 1200 12500 1200
+Wire Wire Line
+	10000 1350 10800 1350
+Wire Wire Line
+	12500 1350 12500 1200
+Connection ~ 12500 1350
+Connection ~ 10800 1350
+Wire Wire Line
+	10800 1350 11600 1350
+Connection ~ 11600 1350
+Wire Wire Line
+	11600 1350 12500 1350
+Connection ~ 12500 1200
+Wire Wire Line
+	12500 1350 12700 1350
+Wire Wire Line
+	10000 2700 10900 2700
+Connection ~ 10900 2700
+Wire Wire Line
+	10900 2700 11700 2700
+Connection ~ 11700 2700
+Wire Wire Line
+	11700 2700 12500 2700
+Wire Wire Line
+	10000 2850 10800 2850
+Connection ~ 10800 2850
+Wire Wire Line
+	10800 2850 11600 2850
+Connection ~ 11600 2850
+Wire Wire Line
+	11600 2850 12500 2850
+Wire Wire Line
+	12500 2700 12500 2850
+Connection ~ 12500 2700
+Connection ~ 12500 2850
+Wire Wire Line
+	12500 2850 12700 2850
+Wire Wire Line
+	10000 3450 10800 3450
+Connection ~ 10800 3450
+Wire Wire Line
+	10800 3450 11600 3450
+Connection ~ 11600 3450
+Wire Wire Line
+	11600 3450 12500 3450
+Wire Wire Line
+	10000 3550 10900 3550
+Connection ~ 10900 3550
+Wire Wire Line
+	10900 3550 11700 3550
+Connection ~ 11700 3550
+Wire Wire Line
+	11700 3550 12500 3550
+Connection ~ 12500 3550
+Wire Wire Line
+	12500 3450 12500 3550
+Connection ~ 12500 3450
+Wire Wire Line
+	10000 4150 10900 4150
+Wire Wire Line
+	12500 4150 12500 4250
+Connection ~ 12500 4150
+Connection ~ 10900 4150
+Wire Wire Line
+	10900 4150 11700 4150
+Connection ~ 11700 4150
+Wire Wire Line
+	11700 4150 12500 4150
+Connection ~ 12500 4250
+Wire Wire Line
+	12500 4250 12700 4250
+Wire Wire Line
+	9700 900  9600 900 
+Wire Wire Line
+	10300 900  10600 900 
+Wire Wire Line
+	11200 900  11400 900 
+Wire Wire Line
+	12000 900  12200 900 
+Wire Wire Line
+	12800 900  12950 900 
+Wire Wire Line
+	12950 900  12950 1650
+Wire Wire Line
+	12950 1650 12800 1650
+Wire Wire Line
+	12800 2400 12950 2400
+Wire Wire Line
+	12950 2400 12950 3150
+Wire Wire Line
+	12950 3150 12800 3150
+Wire Wire Line
+	12200 2400 12000 2400
+Wire Wire Line
+	11400 2400 11200 2400
+Wire Wire Line
+	10600 2400 10300 2400
+Wire Wire Line
+	9700 1650 9600 1650
+Wire Wire Line
+	9600 1650 9600 2400
+Wire Wire Line
+	9600 2400 9700 2400
+Wire Wire Line
+	9700 3150 9600 3150
+Wire Wire Line
+	9600 3150 9600 3850
+Wire Wire Line
+	9600 3850 9700 3850
+Wire Wire Line
+	12950 4550 12800 4550
+Text GLabel 4150 3650 2    50   Input ~ 0
+LEDIN
+Text GLabel 9600 900  0    50   Input ~ 0
+LEDIN
+Text GLabel 12700 1350 2    50   Input ~ 0
+GND
+Text GLabel 12700 2850 2    50   Input ~ 0
+GND
+Text GLabel 12700 4250 2    50   Input ~ 0
+GND
+Text GLabel 12700 4850 2    50   Input ~ 0
++5V
+Wire Wire Line
+	12200 1650 11900 1650
+Wire Wire Line
+	11300 1650 11100 1650
+Wire Wire Line
+	10500 1650 10300 1650
+Wire Wire Line
+	10300 3150 10500 3150
+Wire Wire Line
+	11100 3150 11300 3150
+Wire Wire Line
+	11900 3150 12200 3150
+Wire Wire Line
+	12200 3850 12000 3850
+Wire Wire Line
+	10300 3850 10600 3850
+Wire Wire Line
+	11200 4550 11400 4550
+Wire Wire Line
+	12000 4550 12200 4550
+Wire Wire Line
+	11400 3850 11200 3850
+Wire Wire Line
+	12800 3850 12950 3850
+Wire Wire Line
+	12950 3850 12950 4550
+Wire Wire Line
+	12500 3550 12700 3550
+Text GLabel 12700 3550 2    50   Input ~ 0
++5V
+Text GLabel 12700 2100 2    50   Input ~ 0
++5V
+Text GLabel 12700 600  2    50   Input ~ 0
++5V
+NoConn ~ 10600 4550
+Wire Wire Line
+	3300 1200 3300 1050
+Wire Notes Line
+	5300 500  500  500 
+Wire Notes Line
+	500  500  500  4350
+Wire Notes Line
+	500  4350 5300 4350
+Wire Notes Line
+	5300 500  5300 4350
+Text Notes 3900 4550 0    118  ~ 0
+ATMEGA CIRCUIT\n
+Wire Notes Line
+	5400 4900 9100 4900
+Wire Notes Line
+	9100 4900 9100 500 
+Wire Notes Line
+	9100 500  5400 500 
+Wire Notes Line
+	5400 500  5400 4900
+Text Notes 5400 5100 0    118  ~ 0
+SWITCH-MATRIX
+Wire Notes Line
+	9150 4900 9150 500 
+Wire Notes Line
+	9150 500  13450 500 
+Wire Notes Line
+	13450 500  13450 4900
+Wire Notes Line
+	13450 4900 9150 4900
+Text Notes 9150 5150 0    118  ~ 0
+PER-KEY LED
+Connection ~ 11700 4250
+Wire Wire Line
+	11700 4250 12500 4250
+Connection ~ 11700 4850
+Wire Wire Line
+	11700 4850 12500 4850
+Connection ~ 12500 4850
+Wire Wire Line
+	12500 4850 12700 4850
+Wire Wire Line
+	10900 4250 11700 4250
+Wire Wire Line
+	10900 4850 11700 4850
+NoConn ~ 4150 3350
+NoConn ~ 4150 3450
+NoConn ~ 4150 3550
+Wire Notes Line
+	500  4750 5300 4750
+Wire Notes Line
+	5300 4750 5300 7800
+Wire Notes Line
+	5300 7800 500  7800
+Wire Notes Line
+	500  7800 500  4750
+$Comp
+L usbhub-macropad-rescue:Hole-keebio H1
+U 1 1 6147C26C
+P 800 5050
+F 0 "H1" H 986 5103 60  0000 L CNN
+F 1 "2u stabilizer " H 986 4997 60  0000 L CNN
+F 2 "keyswitches:Stabilizer_MX_2u" H 800 5050 60  0001 C CNN
+F 3 "" H 800 5050 60  0001 C CNN
+	1    800  5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 2450
+NoConn ~ 4150 2550
+NoConn ~ 4150 2650
+Text GLabel 4150 2150 2    50   Input ~ 0
+row0
+Text GLabel 4150 2850 2    50   Input ~ 0
+col1
+Text GLabel 4150 2050 2    50   Input ~ 0
+row1
+Text GLabel 4150 2750 2    50   Input ~ 0
+col0
+Text GLabel 4150 1750 2    50   Input ~ 0
+row4
+Text GLabel 4150 1650 2    50   Input ~ 0
+row5
+$EndSCHEMATC

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "usb-connector")(type "KiCad")(uri "/home/fabian/Nextcloud/tech-cluster/KICAD/libs/usb-connector")(options "")(descr ""))
+  (lib (name "silkimages")(type "KiCad")(uri "/home/fabian/TechCluster/KEYBOARDS/own-designs/usb-hub-macropad/silkimages")(options "")(descr ""))
+)

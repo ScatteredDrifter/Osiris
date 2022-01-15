@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabian/TechCluster/KEYBOARDS/own/usb-hub-macropad/pcb/usbhub-macropad.kicad_sch</source>
+    <date>Fri 14 Jan 2022 01:03:08 AM CET</date>
+    <tool>Eeschema (6.99.0-222-g367431f825)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>usbhub-macropad.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>schematic-atmega.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C91245</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C-Device" description=""/>
+      <property name="LCSC" value="C91245"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613c50c7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C91245</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C-Device" description=""/>
+      <property name="LCSC" value="C91245"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613cb74a</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse - 1A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C69688</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="Polyfuse-Device" description=""/>
+      <property name="LCSC" value="C69688"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000614d34c3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_O-1</value>
+      <footprint>usb-connector:GCT_USB1125-GF-B_REVA</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C109354</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="USB_A-Connector" description=""/>
+      <property name="LCSC" value="C109354"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613d8a3b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_O-2</value>
+      <footprint>usb-connector:GCT_USB1125-GF-B_REVA</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C109354</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="USB_A-Connector" description=""/>
+      <property name="LCSC" value="C109354"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613da625</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_O-3</value>
+      <footprint>usb-connector:GCT_USB1125-GF-B_REVA</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C109354</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="USB_A-Connector" description=""/>
+      <property name="LCSC" value="C109354"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613daaf3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB-UPSTREAM</value>
+      <footprint>usb-connector:GCT_USB1125-GF-B_REVA</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C109354</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="USB_A-Connector" description=""/>
+      <property name="LCSC" value="C109354"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000614e41c9</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="USB_C_Receptacle_USB2.0-Connector" description=""/>
+      <property name="LCSC" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006152eb61</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613d3b8b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2,7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17530</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R-Device" description=""/>
+      <property name="LCSC" value="C17530"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613c6c27</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5,1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C26023</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C26023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061549804</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5,1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C26023</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C26023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061550b1d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FE1.1s</value>
+      <footprint>Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf</datasheet>
+      <fields>
+        <field name="LCSC">C9359</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="FE1.1s-Interface_USB" description=""/>
+      <property name="LCSC" value="C9359"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613beb38</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24_Small</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C93234</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="Crystal_GND24_Small-Device" description=""/>
+      <property name="LCSC" value="C93234"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbhub-macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000614afe18</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1804</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C1804"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457dfe</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1804</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C1804"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e05</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e74</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C91245</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C91245"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e7b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e82</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="C_Small-Device" description=""/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457dd2</tstamps>
+    </comp>
+    <comp ref="D0,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f03</tstamps>
+    </comp>
+    <comp ref="D0,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f40</tstamps>
+    </comp>
+    <comp ref="D0,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f7d</tstamps>
+    </comp>
+    <comp ref="D0,3">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457fba</tstamps>
+    </comp>
+    <comp ref="D1,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457ef4</tstamps>
+    </comp>
+    <comp ref="D1,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f32</tstamps>
+    </comp>
+    <comp ref="D1,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f6f</tstamps>
+    </comp>
+    <comp ref="D1,3">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457fac</tstamps>
+    </comp>
+    <comp ref="D2,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value=" C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457ee5</tstamps>
+    </comp>
+    <comp ref="D2,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value=" C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f23</tstamps>
+    </comp>
+    <comp ref="D2,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value=" C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f60</tstamps>
+    </comp>
+    <comp ref="D2,3">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value=" C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f9d</tstamps>
+    </comp>
+    <comp ref="D3,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457ed6</tstamps>
+    </comp>
+    <comp ref="D3,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f14</tstamps>
+    </comp>
+    <comp ref="D3,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f51</tstamps>
+    </comp>
+    <comp ref="D3,3">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f8e</tstamps>
+    </comp>
+    <comp ref="D4,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000614209fa</tstamps>
+    </comp>
+    <comp ref="D4,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a18</tstamps>
+    </comp>
+    <comp ref="D4,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a36</tstamps>
+    </comp>
+    <comp ref="D4,3">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a54</tstamps>
+    </comp>
+    <comp ref="D5,0">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000614209eb</tstamps>
+    </comp>
+    <comp ref="D5,1">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a09</tstamps>
+    </comp>
+    <comp ref="D5,2">
+      <value>1N4448</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2099</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="1N4448-Diode" description=""/>
+      <property name="LCSC" value="C2099"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a27</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>2u stabilizer </value>
+      <footprint>keyswitches:Stabilizer_MX_2u</footprint>
+      <libsource lib="usbhub-macropad-rescue" part="Hole-keebio" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006147c26c</tstamps>
+    </comp>
+    <comp ref="K0,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f0c</tstamps>
+    </comp>
+    <comp ref="K0,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f49</tstamps>
+    </comp>
+    <comp ref="K0,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f86</tstamps>
+    </comp>
+    <comp ref="K0,3">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457fc3</tstamps>
+    </comp>
+    <comp ref="K1,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457efa</tstamps>
+    </comp>
+    <comp ref="K1,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f38</tstamps>
+    </comp>
+    <comp ref="K1,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f75</tstamps>
+    </comp>
+    <comp ref="K1,3">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457fb2</tstamps>
+    </comp>
+    <comp ref="K2,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457eec</tstamps>
+    </comp>
+    <comp ref="K2,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f2a</tstamps>
+    </comp>
+    <comp ref="K2,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f67</tstamps>
+    </comp>
+    <comp ref="K2,3">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457fa4</tstamps>
+    </comp>
+    <comp ref="K3,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457edd</tstamps>
+    </comp>
+    <comp ref="K3,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f1b</tstamps>
+    </comp>
+    <comp ref="K3,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f58</tstamps>
+    </comp>
+    <comp ref="K3,3">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457f95</tstamps>
+    </comp>
+    <comp ref="K4,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a01</tstamps>
+    </comp>
+    <comp ref="K4,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a1f</tstamps>
+    </comp>
+    <comp ref="K4,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a3d</tstamps>
+    </comp>
+    <comp ref="K4,3">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a5b</tstamps>
+    </comp>
+    <comp ref="K5,0">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000614209f2</tstamps>
+    </comp>
+    <comp ref="K5,1">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a10</tstamps>
+    </comp>
+    <comp ref="K5,2">
+      <value>KEYSW</value>
+      <footprint>keyswitches:SW_MX</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061420a2e</tstamps>
+    </comp>
+    <comp ref="LED0,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006155b4c7</tstamps>
+    </comp>
+    <comp ref="LED0,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006155b4c1</tstamps>
+    </comp>
+    <comp ref="LED0,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006155b4bb</tstamps>
+    </comp>
+    <comp ref="LED0,3">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006155b4b5</tstamps>
+    </comp>
+    <comp ref="LED1,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006156ce31</tstamps>
+    </comp>
+    <comp ref="LED1,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006156ce37</tstamps>
+    </comp>
+    <comp ref="LED1,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006156ce3d</tstamps>
+    </comp>
+    <comp ref="LED1,3">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006156ce43</tstamps>
+    </comp>
+    <comp ref="LED2,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006157736b</tstamps>
+    </comp>
+    <comp ref="LED2,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061577371</tstamps>
+    </comp>
+    <comp ref="LED2,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061577377</tstamps>
+    </comp>
+    <comp ref="LED2,3">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006157737d</tstamps>
+    </comp>
+    <comp ref="LED3,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615839f1</tstamps>
+    </comp>
+    <comp ref="LED3,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615839f7</tstamps>
+    </comp>
+    <comp ref="LED3,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615839fd</tstamps>
+    </comp>
+    <comp ref="LED3,3">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061583a03</tstamps>
+    </comp>
+    <comp ref="LED4,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615906f1</tstamps>
+    </comp>
+    <comp ref="LED4,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615906f7</tstamps>
+    </comp>
+    <comp ref="LED4,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-0000615906fd</tstamps>
+    </comp>
+    <comp ref="LED4,3">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061590703</tstamps>
+    </comp>
+    <comp ref="LED5,0">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006159ba1d</tstamps>
+    </comp>
+    <comp ref="LED5,1">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006159ba23</tstamps>
+    </comp>
+    <comp ref="LED5,2">
+      <value>YS-SK6812MINI-E</value>
+      <footprint>kbd:YS-SK6812MINI-E</footprint>
+      <libsource lib="kbd" part="YS-SK6812MINI-E" description=""/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-00006159ba29</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17561</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C17561"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457de6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17561</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C17561"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457ddd</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e24</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="R_Small-Device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e8c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457e2d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATmega32U2-A</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C618733</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="ATmega32U2-A-MCU_Microchip_ATmega" description=""/>
+      <property name="LCSC" value="C618733"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457dc7</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal_GND24_Small</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C13738</field>
+      </fields>
+      <libsource lib="usbhub-macropad-rescue" part="Crystal_GND24_Small-Device" description=""/>
+      <property name="LCSC" value="C13738"/>
+      <property name="Sheetname" value="schematic-atmega"/>
+      <property name="Sheetfile" value="schematic-atmega.kicad_sch"/>
+      <sheetpath names="/schematic-atmega/" tstamps="/00000000-0000-0000-0000-00006140c963/"/>
+      <tstamps>00000000-0000-0000-0000-000061457df1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="kbd" part="YS-SK6812MINI-E">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">kbd_YS-SK6812MINI-E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">keyboard_parts_KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">keyboard_parts_SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="1N4448-Diode">
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4448-Diode</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="ATmega32U2-A-MCU_Microchip_ATmega">
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32U2-A-MCU_Microchip_ATmega</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="input"/>
+        <pin num="2" name="PC0/XTAL2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PC2" type="bidirectional"/>
+        <pin num="6" name="PD0" type="bidirectional"/>
+        <pin num="7" name="PD1" type="bidirectional"/>
+        <pin num="8" name="PD2" type="bidirectional"/>
+        <pin num="9" name="PD3" type="bidirectional"/>
+        <pin num="10" name="PD4" type="bidirectional"/>
+        <pin num="11" name="PD5" type="bidirectional"/>
+        <pin num="12" name="PD6" type="bidirectional"/>
+        <pin num="13" name="~{HWB}/PD7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB2" type="bidirectional"/>
+        <pin num="17" name="PB3" type="bidirectional"/>
+        <pin num="18" name="PB4" type="bidirectional"/>
+        <pin num="19" name="PB5" type="bidirectional"/>
+        <pin num="20" name="PB6" type="bidirectional"/>
+        <pin num="21" name="PB7" type="bidirectional"/>
+        <pin num="22" name="PC7" type="bidirectional"/>
+        <pin num="23" name="PC6" type="bidirectional"/>
+        <pin num="24" name="PC1/~{RESET}" type="bidirectional"/>
+        <pin num="25" name="PC5" type="bidirectional"/>
+        <pin num="26" name="PC4" type="bidirectional"/>
+        <pin num="27" name="UCAP" type="passive"/>
+        <pin num="28" name="UGND" type="power_in"/>
+        <pin num="29" name="D+" type="bidirectional"/>
+        <pin num="30" name="D-" type="bidirectional"/>
+        <pin num="31" name="UVCC" type="power_in"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="Crystal_GND24_Small-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="FE1.1s-Interface_USB">
+      <footprints>
+        <fp>SSOP*3.9x9.9mm*P0.635mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FE1.1s-Interface_USB</field>
+        <field name="Footprint">Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="XOUT" type="output"/>
+        <pin num="3" name="XIN" type="input"/>
+        <pin num="4" name="DM4" type="bidirectional"/>
+        <pin num="5" name="DP4" type="bidirectional"/>
+        <pin num="6" name="DM3" type="bidirectional"/>
+        <pin num="7" name="DP3" type="bidirectional"/>
+        <pin num="8" name="DM2" type="bidirectional"/>
+        <pin num="9" name="DP2" type="bidirectional"/>
+        <pin num="10" name="DM1" type="bidirectional"/>
+        <pin num="11" name="DP1" type="bidirectional"/>
+        <pin num="12" name="VD18_O" type="power_out"/>
+        <pin num="13" name="VD33" type="power_in"/>
+        <pin num="14" name="REXT" type="passive"/>
+        <pin num="15" name="DMU" type="bidirectional"/>
+        <pin num="16" name="DPU" type="bidirectional"/>
+        <pin num="17" name="~{XRSTJ}" type="input"/>
+        <pin num="18" name="VBUSM" type="input"/>
+        <pin num="19" name="BUSJ" type="input"/>
+        <pin num="20" name="VDD5" type="power_in"/>
+        <pin num="21" name="VD33_O" type="power_out"/>
+        <pin num="22" name="DRV" type="bidirectional"/>
+        <pin num="23" name="LED1/EESCL" type="bidirectional"/>
+        <pin num="24" name="LED2" type="bidirectional"/>
+        <pin num="25" name="PWRJ" type="output"/>
+        <pin num="26" name="OVCJ" type="input"/>
+        <pin num="27" name="TESTJ/EESDA" type="bidirectional"/>
+        <pin num="28" name="VD18" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="Hole-keebio">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Hole-keebio</field>
+      </fields>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="Polyfuse-Device">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="USB_A-Connector">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbhub-macropad-rescue" part="USB_C_Receptacle_USB2.0-Connector">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0-Connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="kbd">
+      <uri>/home/fabian/TechCluster/KICAD/libs/kbd/kicad-symbols/kbd.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>/home/fabian/TechCluster/KICAD/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
+    </library>
+    <library logical="usbhub-macropad-rescue">
+      <uri>/home/fabian/TechCluster/KEYBOARDS/own/usb-hub-macropad/pcb/usbhub-macropad-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="LED0,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED0,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED0,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED0,3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED1,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED1,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED1,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED1,3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2,3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3,3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4,3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED5,0" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED5,1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED5,2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="VBUSM" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="VDD5" pintype="power_in"/>
+      <node ref="U2" pin="31" pinfunction="UVCC" pintype="power_in"/>
+      <node ref="U2" pin="32" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5VIN">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J5" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="3" name="0D+">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="DP1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="0D-">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="DM1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="1D+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="DP2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="1D-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="8" pinfunction="DM2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="2D+">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="DP3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="2D-">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="DM3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="3D+">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="DP4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="3D-">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="DM4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="D+">
+      <node ref="J4" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J5" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J5" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="DPU" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="D-">
+      <node ref="J4" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J5" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J5" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="DMU" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J5" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="LED0,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED0,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED0,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED0,3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED1,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED1,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED1,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED1,3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED2,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED2,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED2,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED2,3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED3,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED3,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED3,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED3,3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED4,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED4,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED4,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED4,3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED5,0" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED5,1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED5,2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="BUSJ" pintype="input"/>
+      <node ref="U1" pin="26" pinfunction="OVCJ" pintype="input"/>
+      <node ref="U1" pin="27" pinfunction="TESTJ/EESDA" pintype="bidirectional"/>
+      <node ref="U2" pin="28" pinfunction="UGND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="14" name="LEDIN">
+      <node ref="LED0,3" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(D0,0-A)">
+      <node ref="D0,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K0,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D0,1-A)">
+      <node ref="D0,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K0,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D0,2-A)">
+      <node ref="D0,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K0,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D0,3-A)">
+      <node ref="D0,3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K0,3" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D1,0-A)">
+      <node ref="D1,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1,1-A)">
+      <node ref="D1,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D1,2-A)">
+      <node ref="D1,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D1,3-A)">
+      <node ref="D1,3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1,3" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D2,0-A)">
+      <node ref="D2,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D2,1-A)">
+      <node ref="D2,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D2,2-A)">
+      <node ref="D2,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D2,3-A)">
+      <node ref="D2,3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2,3" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D3,0-A)">
+      <node ref="D3,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D3,1-A)">
+      <node ref="D3,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D3,2-A)">
+      <node ref="D3,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D3,3-A)">
+      <node ref="D3,3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3,3" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D4,0-A)">
+      <node ref="D4,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D4,1-A)">
+      <node ref="D4,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D4,2-A)">
+      <node ref="D4,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D4,3-A)">
+      <node ref="D4,3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4,3" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D5,0-A)">
+      <node ref="D5,0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K5,0" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D5,1-A)">
+      <node ref="D5,1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K5,1" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D5,2-A)">
+      <node ref="D5,2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K5,2" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J5-CC1)">
+      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J5-CC2)">
+      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(LED0,0-DIN)">
+      <node ref="LED0,0" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="LED0,1" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(LED0,0-DOUT)">
+      <node ref="LED0,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED1,0" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(LED0,1-DIN)">
+      <node ref="LED0,1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="LED0,2" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(LED0,2-DIN)">
+      <node ref="LED0,2" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="LED0,3" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(LED1,0-DOUT)">
+      <node ref="LED1,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED1,1" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(LED1,1-DOUT)">
+      <node ref="LED1,1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED1,2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(LED1,2-DOUT)">
+      <node ref="LED1,2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED1,3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(LED1,3-DOUT)">
+      <node ref="LED1,3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2,0" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(LED2,0-DOUT)">
+      <node ref="LED2,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2,1" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(LED2,1-DOUT)">
+      <node ref="LED2,1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2,2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(LED2,2-DOUT)">
+      <node ref="LED2,2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2,3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(LED2,3-DOUT)">
+      <node ref="LED2,3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3,0" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(LED3,0-DOUT)">
+      <node ref="LED3,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3,1" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(LED3,1-DOUT)">
+      <node ref="LED3,1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3,2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(LED3,2-DOUT)">
+      <node ref="LED3,2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3,3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(LED3,3-DOUT)">
+      <node ref="LED3,3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED4,0" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(LED4,0-DOUT)">
+      <node ref="LED4,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED4,1" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(LED4,1-DOUT)">
+      <node ref="LED4,1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED4,2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(LED4,2-DOUT)">
+      <node ref="LED4,2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED4,3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(LED4,3-DOUT)">
+      <node ref="LED4,3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED5,0" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(LED5,0-DOUT)">
+      <node ref="LED5,0" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED5,1" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(LED5,1-DOUT)">
+      <node ref="LED5,1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED5,2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(U1-REXT)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="REXT" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U1-VD18_O)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VD18_O" pintype="power_out"/>
+    </net>
+    <net code="64" name="Net-(U1-VD33_O)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VD33_O" pintype="power_out"/>
+    </net>
+    <net code="65" name="Net-(U1-XIN)">
+      <node ref="U1" pin="3" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(U1-XOUT)">
+      <node ref="U1" pin="2" pinfunction="XOUT" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(U1-~{XRSTJ})">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="~{XRSTJ}" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U2-D+)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="Net-(U2-D-)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="Net-(U2-PC0/XTAL2)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PC0/XTAL2" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(U2-PC1/~{RESET})">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="PC1/~{RESET}" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="Net-(U2-UCAP)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="UCAP" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(U2-XTAL1)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(U2-~{HWB}/PD7)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="~{HWB}/PD7" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="col0">
+      <node ref="K0,0" pin="1" pintype="passive"/>
+      <node ref="K1,0" pin="1" pintype="passive"/>
+      <node ref="K2,0" pin="1" pintype="passive"/>
+      <node ref="K3,0" pin="1" pintype="passive"/>
+      <node ref="K4,0" pin="1" pintype="passive"/>
+      <node ref="K5,0" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="col1">
+      <node ref="K0,1" pin="1" pintype="passive"/>
+      <node ref="K1,1" pin="1" pintype="passive"/>
+      <node ref="K2,1" pin="1" pintype="passive"/>
+      <node ref="K3,1" pin="1" pintype="passive"/>
+      <node ref="K4,1" pin="1" pintype="passive"/>
+      <node ref="K5,1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="col2">
+      <node ref="K0,2" pin="1" pintype="passive"/>
+      <node ref="K1,2" pin="1" pintype="passive"/>
+      <node ref="K2,2" pin="1" pintype="passive"/>
+      <node ref="K3,2" pin="1" pintype="passive"/>
+      <node ref="K4,2" pin="1" pintype="passive"/>
+      <node ref="K5,2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="col3">
+      <node ref="K0,3" pin="1" pintype="passive"/>
+      <node ref="K1,3" pin="1" pintype="passive"/>
+      <node ref="K2,3" pin="1" pintype="passive"/>
+      <node ref="K3,3" pin="1" pintype="passive"/>
+      <node ref="K4,3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="row0">
+      <node ref="D0,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D0,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D0,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D0,3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="row1">
+      <node ref="D1,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D1,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D1,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D1,3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="row2">
+      <node ref="D2,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2,3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="row3">
+      <node ref="D3,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3,3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="row4">
+      <node ref="D4,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4,3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="row5">
+      <node ref="D5,0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5,1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5,2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(J5-SBU1)">
+      <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J5-SBU2)">
+      <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(LED5,2-DOUT)">
+      <node ref="LED5,2" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-DRV)">
+      <node ref="U1" pin="22" pinfunction="DRV" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U1-LED1/EESCL)">
+      <node ref="U1" pin="23" pinfunction="LED1/EESCL" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U1-LED2)">
+      <node ref="U1" pin="24" pinfunction="LED2" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(U1-PWRJ)">
+      <node ref="U1" pin="25" pinfunction="PWRJ" pintype="output"/>
+    </net>
+    <net code="92" name="unconnected-(U1-VD18)">
+      <node ref="U1" pin="28" pinfunction="VD18" pintype="power_in"/>
+    </net>
+    <net code="93" name="unconnected-(U1-VD33)">
+      <node ref="U1" pin="13" pinfunction="VD33" pintype="power_in"/>
+    </net>
+    <net code="94" name="unconnected-(U2-PC2)">
+      <node ref="U2" pin="5" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-PC4)">
+      <node ref="U2" pin="26" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-PC5)">
+      <node ref="U2" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U2-PD0)">
+      <node ref="U2" pin="6" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U2-PD1)">
+      <node ref="U2" pin="7" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U2-PD2)">
+      <node ref="U2" pin="8" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U2-PD3)">
+      <node ref="U2" pin="9" pinfunction="PD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U2-PD4)">
+      <node ref="U2" pin="10" pinfunction="PD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U2-PD5)">
+      <node ref="U2" pin="11" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
